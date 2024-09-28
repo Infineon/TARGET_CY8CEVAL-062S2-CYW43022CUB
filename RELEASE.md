@@ -1,7 +1,7 @@
 # CY8CEVAL-062S2-CYW43022CUB BSP Release Notes
-The CY8CEVAL-062S2 PSoC™ 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC™ 62 MCU. The PSoC™ 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC™ Wi-Fi/Bluetooth combo devices. It comes with industry-leading CAPSENSE™ for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.     
+The CY8CEVAL-062S2 PSoC™ 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC™ 62 MCU. The PSoC™ 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC™ Wi-Fi/Bluetooth® combo devices. It comes with industry-leading CAPSENSE™ for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.     
 **Note:**
-CY8CEVAL-062S2-CYW43022CUB is the board support package for the PSoC™ 62S2 Evaluation Kit in combination with the CYW943022SDM2WLIPA radio module and supports PSoC™ 6 MCU examples and Wi-Fi/Bluetooth connectivity examples.
+CY8CEVAL-062S2-CYW43022CUB is the board support package for the PSoC™ 62S2 Evaluation Kit in combination with the Infineon's AIROC™ CYW943022SDM2WLIPA Wi-Fi/Bluetooth M.2 radio module and supports PSoC™ 6 MCU examples and Wi-Fi/Bluetooth® connectivity examples.
 
 NOTE: BSPs are versioned by family. This means that version 1.2.0 of any BSP in a family (eg: PSoC™ 6) will have the same software maturity level. However, not all updates are necessarily applicable for each BSP in the family so not all version numbers will exist for each board. Additionally, new BSPs may not start at version 1.0.0. In the event of adding a common feature across all BSPs, the libraries are assigned the same version number. For example if BSP_A is at v1.3.0 and BSP_B is at v1.2.0, the event will trigger a version update to v1.4.0 for both BSP_A and BSP_B. This allows the common feature to be tracked in a consistent way.
 
@@ -17,7 +17,16 @@ The CY8CEVAL-062S2-CYW43022CUB library includes the following:
 * API documentation
 
 ### What Changed?
-#### v4.1.0
+#### v4.3.2
+* Updated the supported capabilities in props.json for PSoC&trade; 6 MCU BSPs with AIROC&trade; Wi-Fi and Bluetooth&reg; Combo devices.
+#### v4.3.1
+* Updated the README file for CY8CEVAL-062S2-MUR-43439M2.
+#### v4.3.0
+* Update companion device pin configuration to align with requirements of MUR-43439 and LAI-43439 M.2 module.
+* Updated the README file for CY8CEVAL-062S2, CY8CEVAL-062S2-LAI-43439M2, CY8CEVAL-062S2-LAI-4373M2, CY8CEVAL-062S2-MUR-4373M2, CY8CEVAL-062S2-MUR-4373EM2, and CY8CEVAL-062S2-CYW43022CUB BSPs to remove the M.2 radio module detail from kit contents section.
+#### v4.2.1
+* Added memory-analyzer configuration support for CY8CKIT-062S4.
+#### v4.2.0
 * Updated linker scripts and startup code to align with mtb-pdl-cat1 v3.4.0
 * Added functionality to enable BSP Assistant chip flow
 * Added capabilities to match BSPS created by BSP Assistant chip flow
@@ -90,7 +99,7 @@ This version of the CY8CEVAL-062S2-CYW43022CUB BSP was validated for compatibili
 | :---                                      | :----:  |
 | ModusToolbox™ Software Environment        | 3.1.0   |
 | GCC Compiler                              | 12.2.1  |
-| IAR Compiler                              | 9.30.1  |
+| IAR Compiler                              | 9.40.2  |
 | ARM Compiler                              | 6.16    |
 
 Minimum required ModusToolbox™ Software Environment: v3.0.0
