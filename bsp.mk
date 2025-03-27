@@ -58,5 +58,5 @@ DEVICE_CYW43022CUB_FLASH_KB:=0
 DEVICE_CYW43022CUB_SRAM_KB:=1280
 DEVICE_DEFINES:=BLHS_SUPPORT DM_43022C1
 DEVICE_LIST:=CY8C624ABZI-S2D44 CYW43022CUB
-DEVICE_TOOL_IDS:=bsp-assistant bt-configurator capsense-configurator capsense-tuner device-configurator dfuh-tool library-manager lin-configurator ml-configurator project-creator qspi-configurator seglcd-configurator smartio-configurator usbdev-configurator
+DEVICE_TOOL_IDS:=bsp-assistant bt-configurator capsense-configurator capsense-tuner device-configurator dfuh-tool library-manager lin-configurator ml-configurator motor-suite-gui project-creator qspi-configurator seglcd-configurator smartio-configurator usbdev-configurator
 RECIPE_DIR:=$(SEARCH_recipe-make-cat1a)
